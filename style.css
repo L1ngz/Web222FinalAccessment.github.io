@@ -1,0 +1,296 @@
+@import url("https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Roboto:wght@300;700&display=swap");
+body {
+  background: white;
+  margin: auto;
+}
+ul{
+  list-style: none;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Roboto", serif;
+  font-weight: lighter;
+}
+
+p {
+  font-family: "Cutive Mono", monospace;
+  font-size: 18px;
+  line-height: 1.5rem;
+}
+footer{
+  bottom: 0;
+  width: 100%;
+}
+strong {
+  display: block;
+}
+
+.img_me {
+  width: 430px;
+  height: 600px;
+}
+.img-background {
+  background: no-repeat center fixed;
+  background-size: cover;
+}
+.self-intro p{
+  display: block;
+  text-align: left;
+  padding: 60px;
+
+}
+
+.self-intro {
+  border: 15px rgb(20, 19, 19);
+  margin-left:300px;
+  padding: 200px;
+  box-sizing: border-box;
+  border-radius:  10px;
+  font-size: 40px;
+  text-align: center;
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: 500px 500px;
+}
+
+.about-grid {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  gap: 50px;
+  margin: 100px;
+}
+.from {
+  color: white;
+  border-radius: 25px;
+  padding: 40px;
+  background-color: rgb(53, 50, 50);
+}
+
+.exp {
+  border-radius: 25px;
+  padding: 40px;
+  background-color: rgb(46, 160, 202);
+}
+
+.SW {
+  border-radius: 25px;
+  padding: 40px;
+  color: white;
+  background-color: darkslateblue;
+}
+
+.future {
+  margin-left: 300px;
+  margin-right: 300px;
+  margin-bottom: 100px;
+  border-radius: 25px;
+  padding: 40px;
+  color: rgb(6, 6, 6);
+  background-color: rgb(222, 202, 131);
+}
+
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    padding: 10px 90px;
+    box-sizing: border-box;
+    background: rgba(0,0,0,0.6);
+    border-bottom: 1px solid #fff;
+    color:white; 
+
+}
+
+nav .logo{
+    padding:22px 20px;
+    height:80px;
+    float:left;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+
+nav ul{
+    list-style: none;
+    float: right;
+    margin: 0;
+    padding:0;
+    display:flex;
+
+}
+
+nav ul li a {
+    line-height: 80px;
+    color: #fff;
+    padding: 12px 30px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+
+nav ul li a:hover {
+    background: rgba(0,0,0,0.6);
+    border-radius: 25px;
+
+}
+
+.background-img{
+    width:100%;
+    height: 40vh;
+    background: url(img/background.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+nav img{
+
+    width: 50px;
+    height: 50px;
+    float:right;
+    margin:10px;
+    
+}
+.exp:hover{
+    background: rgba(93, 182, 227, 0.7);
+    border-radius: 25px;
+
+}
+
+.SW:hover{
+    background: rgba(27, 37, 42, 0.7);
+    border-radius: 25px;
+
+}
+
+.from:hover{
+    background: rgba(35, 32, 38, 0.7);
+    border-radius: 25px;
+
+}
+hr {
+  width: 80%;
+}
+
+.footer{
+  background-color: rgba(0,0,0,0.6);
+  padding: 70px 0;
+}
+
+.container{
+  max-width: 1170px;
+  
+  margin: auto;
+}
+.row{
+  margin-left: 100px;
+  display: grid;
+  grid-template-columns: 40% 60%;
+}
+.footer-col{
+ padding: 0 15px;
+}
+
+.footer-col h1{
+  font-size: 18px;
+  color: #fff;
+  margin-bottom: 30px;
+  text-align: left;
+}
+
+.footer-col ul li:not(last-child){
+  margin-bottom: 10px;
+}
+
+.footer-col ul li a{
+  font-size: 16px;
+  color: #ffffff;
+  display: block;
+  color: #bbbbbb;
+}
+.footer-col p{
+  font-size: 16px;
+  color: #ffffff;
+  display: block;
+  color: #bbbbbb;
+}
+
+.link{
+  color:#bbbbbb;
+  font-style: italic;
+  font-weight: bold ;
+}
+
+/* -----Contact Me-----*/
+
+.contact-box{
+  margin-top: 100px;
+  margin-bottom: 50px;
+  width: 500px;
+  left: 50%;
+  margin-left: -250px;
+  box-shadow: 0 0 20px 0 #999;
+  position:relative; 
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+form{
+margin: 35px;
+}
+.input-field{
+  width: 400px;
+  height: 40px;
+  margin-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 1px solid #777;
+  border-radius: 15px;
+  outline: none;
+}
+.text-area-field{
+  width: 400px;
+  height: 150px;
+  margin-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 1px solid #777;
+  border-radius: 15px;
+  outline: none;
+}
+
+form h1{
+  text-align: left;
+  font-size: 18px;
+}
+
+button{
+  border-radius: 20px;
+  color: #fff;
+  margin-top: 18px;
+  padding: 10px;
+  background-color: #47c35a;
+  font-size: 12px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover{
+  background-color: #bbdcc0;
+  
+}
+/*Honesty*/
+
+.declaration{
+  width: 1000px;
+  display:block;
+  left: 50%;
+  margin-left: -500px;
+  position: relative;
+}

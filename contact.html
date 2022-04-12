@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="with=device-width, initial-scale=1.0" />
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+  </head>
+
+  <body>
+    <header>
+      <div class="background-img"></div>
+      <div class="navbar">
+        <nav>
+          <img src="img/head.png" alt="head" class="head" />
+          <div class="logo">Personal Portfolio</div>
+          <ul>
+            <li><a href="main.html"> About Me </a></li>
+
+            <li><a href="contact.html">Contact Me</a></li>
+
+            <li><a href="honesty.html">Honesty</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <section class="contact-box">
+      <form>
+        <h1>Your Name</h1>
+        <input type="text" id="name" class="input-field" placeholder="" />
+        <h1>Your E-mail Address</h1>
+        <input type="email" id="email" class="input-field" placeholder="" />
+        <h1>Subject</h1>
+        <input type="text" id="subject" class="input-field" placeholder="" />
+        <h1>Message</h1>
+        <textarea
+          type="text"
+          id="msg"
+          class="text-area-field"
+          placeholder=""
+        ></textarea>
+        <button type="submit" class="submit" onClick="clickhandler()">
+          Send E-mail
+        </button>
+      </form>
+    </section>
+    <hr />
+
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer-col">
+            <h1>MENU</h1>
+            <ul>
+              <li><a href="main.html">Main Page</a></li>
+              <li><a href="contact.html">Contact Me</a></li>
+              <li><a href="honesty.html">Honesty</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h1>COPY RIGHT</h1>
+            <p>
+              This website is made by Ling Zhang @2022.Need more informaton
+              please click <a href="contact.html" class="link">Contact Me</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
