@@ -43,10 +43,10 @@ strong {
 }
 
 .self-intro {
+  max-width: 100%;
   border: 15px rgb(20, 19, 19);
-  margin-left:300px;
+  margin-left:150px;
   padding: 200px;
-  box-sizing: border-box;
   border-radius:  10px;
   font-size: 40px;
   text-align: center;
